@@ -1,0 +1,20 @@
+﻿  dictionary_implementation.cpp
+C:\Users\makra\Desktop\EX06\dictionary_implementation\dictionary_implementation\Dictionary.h(84,2): warning C4018: '<': signed/unsigned mismatch
+C:\Users\makra\Desktop\EX06\dictionary_implementation\dictionary_implementation\Dictionary.h(82): message : while compiling class template member function 'T *Dictionary<T>::operator [](int)'
+          with
+          [
+              T=std::string
+          ]
+C:\Users\makra\Desktop\EX06\dictionary_implementation\dictionary_implementation\dictionary_implementation.cpp(41): message : see reference to function template instantiation 'T *Dictionary<T>::operator [](int)' being compiled
+          with
+          [
+              T=std::string
+          ]
+C:\Users\makra\Desktop\EX06\dictionary_implementation\dictionary_implementation\dictionary_implementation.cpp(10): message : see reference to class template instantiation 'Dictionary<std::string>' being compiled
+C:\Users\makra\Desktop\EX06\dictionary_implementation\dictionary_implementation\Dictionary.h(69,2): warning C4018: '<': signed/unsigned mismatch
+C:\Users\makra\Desktop\EX06\dictionary_implementation\dictionary_implementation\Dictionary.h(57): message : while compiling class template member function 'void Dictionary<std::string>::remove(int)'
+C:\Users\makra\Desktop\EX06\dictionary_implementation\dictionary_implementation\dictionary_implementation.cpp(47): message : see reference to function template instantiation 'void Dictionary<std::string>::remove(int)' being compiled
+C:\Users\makra\Desktop\EX06\dictionary_implementation\dictionary_implementation\Dictionary.h(31,2): warning C4018: '<': signed/unsigned mismatch
+C:\Users\makra\Desktop\EX06\dictionary_implementation\dictionary_implementation\Dictionary.h(29): message : while compiling class template member function 'bool Dictionary<std::string>::exists(int)'
+C:\Users\makra\Desktop\EX06\dictionary_implementation\dictionary_implementation\dictionary_implementation.cpp(31): message : see reference to function template instantiation 'bool Dictionary<std::string>::exists(int)' being compiled
+  dictionary_implementation.vcxproj -> C:\Users\makra\Desktop\EX06\dictionary_implementation\dictionary_implementation\Debug\dictionary_implementation.exe
